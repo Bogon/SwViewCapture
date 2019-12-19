@@ -7,7 +7,7 @@ SwViewCapture could convert all content of UIWebView to a UIImage.
 一个用起来还不错的iOS截图库.(支持截取所有内容, 适用于所有ScrollView组成的视图, 包括WKWebView)
 
 SwViewCapture支持截取网页以及ScrollView的所有内容
-
+[![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
 [![Version](https://img.shields.io/cocoapods/v/SwViewCapture.svg?style=flat)](http://cocoapods.org/pods/SwViewCapture)
 [![License](https://img.shields.io/cocoapods/l/SwViewCapture.svg?style=flat)](http://cocoapods.org/pods/SwViewCapture)
 [![Platform](https://img.shields.io/cocoapods/p/SwViewCapture.svg?style=flat)](http://cocoapods.org/pods/SwViewCapture)
@@ -97,19 +97,26 @@ view.swContentScrollCapture { (capturedImage) -> Void in
 
 ## Requirement
 
-iOS 8.0+, Swift 2.0+ or Swift 3.0(Compatiable)
+iOS 10.0+, Swift 4.0+ (Compatiable)
 
 SwViewCapture is available through [CocoaPods](http://cocoapods.org) now. To Install it, simply and the following line to your Podfile:
 
 ``` ruby
-pod "SwViewCapture"
+pod 'SwViewCapture'
 ```
 
 Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
 
 ``` 
-github "startry/SwViewCapture"
+github 'Bogon/SwViewCapture'
 ```
+## 维护者
+
+name: Bogon
+
+email: zhangqixcu@gmail.com
+
+github: [Bogon](https://github.com/Bogon)
 
 ## License
 

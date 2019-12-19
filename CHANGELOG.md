@@ -27,3 +27,7 @@
 1.0.6
 
 * fixed the problem that isCapurting always return false
+
+1.3.0
+
+* swift 4.0  iOS 10.0
