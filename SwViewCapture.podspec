@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "SwViewCapture"
-s.version          = "1.3.0"
+s.version          = "1.4.0"
 s.summary          = "A nice iOS View Capture Library which can capture all content."
 s.swift_version    = '4.0'
 
@@ -11,7 +11,7 @@ s.description      = <<-DESC
 
 s.homepage         = "https://github.com/Bogon/SwViewCapture"
 s.license          = 'MIT'
-s.author           = { "chenxing.cx" => "chenxingfl@gmail.com" }
+s.author           = { "Bogon" => "zhangqixcu@gmail.com" }
 s.source           = { :git => "https://github.com/Bogon/SwViewCapture.git", :tag => s.version.to_s }
 #s.social_media_url = 'https://twitter.com/xStartry'
 
